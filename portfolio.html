@@ -323,22 +323,31 @@
         </div>
 
         <!--Подпишитесь на рассылку-->
-        <div class="footer-color-last">
+        <form class="footer-color-last">
           <h4 class="footer-color-middle">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h4>
-          <ul class="form">
-            <li class="form-element">
-              <p class="for-mail">E-mail</p>
-            </li>
-            <li class="form-element">
+          <div class="form">
+            <div class="form-element">
+              <input
+                class="for-mail"
+                type="text"
+                name="name"
+                id="e-mail"
+                name="e-mail"
+                placeholder=" "
+              />
+              <label class="for-mail-text" for="e-mail">E-mail</label>
+            </div>
+
+            <div class="form-element">
               <button class="primary-button subscribe">
                 ПОДПИСАТЬСЯ
                 <svg class="icon-send">
                   <use href="./images/symbol-defs.svg#icon-icon-send"></use>
                 </svg>
               </button>
-            </li>
-          </ul>
-        </div>
+            </div>
+          </div>
+        </form>
       </div>
     </section>
   </body>
